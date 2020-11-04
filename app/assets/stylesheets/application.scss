@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+ $fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+ @import '@fortawesome/fontawesome-free/scss/fontawesome';
+ @import '@fortawesome/fontawesome-free/scss/solid';
+ @import '@fortawesome/fontawesome-free/scss/regular';
+ @import '@fortawesome/fontawesome-free/scss/brands';
+ @import '@fortawesome/fontawesome-free/scss/v4-shims';
+
+ @import "bootstrap/scss/bootstrap";
+
+ h1 {
+    margin-bottom: 1rem;
+ }
+ 
+ h2 {
+    font-size: 1.6rem;
+}
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 0 30px;
+    margin-bottom: 60px;
+
+    #brand {
+        font-size: 1.5rem;
+    }
+}
