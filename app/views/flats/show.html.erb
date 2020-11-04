@@ -1,0 +1,11 @@
+<h2> <%= @flat.name%> </h2>
+<p><%= link_to "Edit flat",  edit_flat_path(@flat)%></p>
+
+<div class="nums">
+  <div class="guests"><i class="fas fa-users"></i> <%= @flat.number_of_guests%></div>
+  <div class="price"><i class="fas fa-euro-sign"></i> <%= @flat.price_per_night%></div>
+</div>
+<p> <%= @flat.address%> </p>
+<p> <%= @flat.description%> </p>
+
+<%= %> 
